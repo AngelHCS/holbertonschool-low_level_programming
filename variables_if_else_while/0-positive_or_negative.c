@@ -6,19 +6,19 @@
  * Return: is zero/is negative/is positive
  */
 
-int main(void) /* inf function void */
+int main(void)
 
 {
 	int n;
-/* Printing zero is pretty rare but this is still part of te excercise */
+/* Printing zero is pretty rare but this is still part of the excercise */
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n == 0)
-	printf("is zero\n");
-	else if (n > 0)
-	printf("is positive\n");
+	printf("%d is zero\n", n);
+	else if (n < 0)
+	printf("%d is negative\n", n);
 	else
-	printf("is negative\n");
+	printf("%d is positive\n", n);
 
 	return (0);
 }
