@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/**
 /*comment test*/
 
 int main(void)
