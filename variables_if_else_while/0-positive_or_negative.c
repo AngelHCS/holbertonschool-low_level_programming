@@ -1,13 +1,16 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
+/**
+ * main- Entry point
+ * Return: is zero/is negative/is positive
+ */
 
-/* function main is void */
-int main(void)
+int main(void) /* inf function void */
+
 {
 	int n;
-
+/* int function void */
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n == 0)
