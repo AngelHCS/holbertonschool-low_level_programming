@@ -1,16 +1,19 @@
 #include <stdio.h>
 /**
- * main- void
- *
- * Return 0 success
- */
+* main - it has void, insert desc
+*
+* Return: is 0 (success)
+*
+*/
 
-int main.(void)
-{ 
-char c;
-for(c = 'a' ; c <= 'z' ; c++)
-putchar(c);
-putchar(\n);
+int main(void)
+{
+char ch;
 
-return(0);
-} 
+for (ch = 'a' ; ch <= 'z' ; ch++)
+putchar (ch);
+putchar ('\n');
+
+return (0);
+}
+
