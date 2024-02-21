@@ -16,4 +16,5 @@ for (digit = 'a'; digit <= 'f'; digit++)
 putchar(digit);
 
 putchar('\n');
+return (0);
 }
