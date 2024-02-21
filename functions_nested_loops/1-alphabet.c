@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "pitchchar.h"
 /**
 * main - it has void, insert desc
 *
