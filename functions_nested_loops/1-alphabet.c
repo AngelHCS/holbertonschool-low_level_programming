@@ -1,20 +1,22 @@
 #include <stdio.h>
-#include "pitchchar.h"
+
 /**
-* main - it has void, insert desc
-*
+* print_alphabet - prints a..z lowercase
 * Return: is 0 (success)
 *
 */
 
-int main(void)
+void print_alphabet(void)
+
 {
-char ch;
+	char c = 'a';
 
-for (ch = 'a' ; ch <= 'z' ; ch++)
-putchar (ch);
-putchar ('\n');
+while (c <= 'z')
+{
+_putchar(c);
+c++;
 
-return (0);
 }
+_putchar('/n');
 
+}
