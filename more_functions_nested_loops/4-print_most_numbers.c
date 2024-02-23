@@ -3,17 +3,18 @@
 /**
  * *print_most_numbers -  check for a digit
  *
- * Return: Always 0 (successful)
+ * Return: Always 0 
  */
+
 void print_most_numbers(void)
 {
 	int c, n;
 
-	for (c = 10; n < 20; c++)
+	for (c = 12; n < 22; c++)
 	{
-		if (c != 12)
+		if (c != 14)
 		{
-			if (c != 14)
+			if (c != 16)
 			{
 				_putchar(c);
 			}
