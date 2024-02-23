@@ -3,6 +3,7 @@
 /**
  * print_line _ draws a straight line in terminal
  * @n: number of times the char should print
+ * Return: always 0
  */
 
 void print_line(int n)
