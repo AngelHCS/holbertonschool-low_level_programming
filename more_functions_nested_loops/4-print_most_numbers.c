@@ -3,7 +3,7 @@
 /**
  * *print_most_numbers -  check for a digit
  *
- * Return: Always 0 
+ * Return: Always 0
  */
 void print_most_numbers(void)
 {
