@@ -5,12 +5,11 @@
  *
  * Return: Always 0 
  */
-
 void print_most_numbers(void)
 {
-	int c, n;
+	int c;
 
-	for (c = 12; n < 22; c++)
+	for (c = 12; c < 22; c++)
 	{
 		if (c != 14)
 		{
