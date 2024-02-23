@@ -2,6 +2,8 @@
 
 /**
  * more_numbers -prints 10 times numbers 0..14 with newline
+ *
+ * Return: always 0
  */
 
 void more_numbers(void)
