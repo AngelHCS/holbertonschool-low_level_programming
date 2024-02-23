@@ -11,9 +11,9 @@ void print_most_numbers(void)
 
 	for (c = 10; n < 20; c++)
 	{
-		if (c != 50)
+		if (c != 12)
 		{
-			if (c != 52)
+			if (c != 14)
 			{
 				_putchar(c);
 			}
