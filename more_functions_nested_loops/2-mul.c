@@ -1,11 +1,12 @@
 #include "main.h"
 /**
- *mul - multiply 2 integers
- *@a -  var
- *@b -  var
- *return: always 0
+ *mul - multiply two integers
+ *@a:  var
+ *@b:  var
+ *
+ *Return: always (0) successful
  */
-int mul(int a, int b)
+int mul(int a, int b);
 {
 int mul;
 
