@@ -4,15 +4,12 @@
  *@size: size of triangle
  *Return: always 0
  */
-
 void print_triangle(int size)
-
 {
 	if (size <= 0)
 	{
-	_putchar('n');
-	}
-	else
+	_putchar('\n');
+	} else
 	{
 		int i, j;
 
