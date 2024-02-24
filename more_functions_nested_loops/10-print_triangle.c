@@ -4,6 +4,7 @@
  *@size: size of triangle
  *Return: always 0
  */
+
 void print_triangle(int size)
 
 {
@@ -24,10 +25,10 @@ void print_triangle(int size)
 
 			for (j = 1; j <= i; j++)
 			{
-				_putchar('#')
+				_putchar('#');
 			}
 
-			_putchar('\n')
+			_putchar('\n');
 		}
 	}
 }
