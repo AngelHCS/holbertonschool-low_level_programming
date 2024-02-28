@@ -4,8 +4,7 @@
  * _puts - prints string to output
  * @str: pointer
  */
-void _puts(char *str);
-
+void _puts(char *str)
 {
 	int i;
 
