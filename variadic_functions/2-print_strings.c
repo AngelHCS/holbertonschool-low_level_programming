@@ -2,8 +2,8 @@
 
 /**
  * print_strings - prints strings followed by newline
- * @seperator - seperator for strings
- * @n number of paramaters
+ * @seperator: seperator for strings
+ * @n: number of paramaters
  * Return: 0
  */
 
