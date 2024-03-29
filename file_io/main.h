@@ -1,6 +1,13 @@
 #ifndef MAIN_H
 #define MAIN_H
+
+
+/** more libraries */
 #include <stdio.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
 
 /** prototypes */
  int _putchar(char c);
